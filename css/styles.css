@@ -1,4 +1,23 @@
-h1 {
-	font-size: 33px;
+
+.mainContainer {
+	max-width: 1000px;
+	width: 100%;
+	margin: 25px auto;
+	background: white;
+	/*border: 1px solid black;*/
 }
 
+
+.mainBox {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-template-rows: 450px 300px;
+	grid-gap: 30px;
+	justify-content: space-between;
+}
+
+.boxItem {
+	border: 2px solid black;
+	border-radius: 10px;
+	/*padding: 15px;*/
+}
